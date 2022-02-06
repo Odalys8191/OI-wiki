@@ -68,7 +68,7 @@ $$
 
 ### [原根](../number-theory/primitive-root.md)
 
-$g$ 满足 $\operatorname{ord}_n(g)=\left|Z_n^\times\right|=\varphi(n)$，对于质数 $p$，也就是说 $g^i \bmod p, 0 \leq i < p$ 结果互不相同。
+$g$ 满足 $\operatorname{ord}_n(g)=\left|Z_n^\times\right|=\varphi(n)$，对于质数 $p$，也就是说 $g^i \bmod p, 0 \leq i < \varphi(p)$ 结果互不相同。
 
 模 $n$ 有原根的充要条件 :$n = 2, 4, p^e, 2 \times p^e$
 
